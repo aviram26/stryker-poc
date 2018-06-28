@@ -1,7 +1,8 @@
 {
     "name": "sample-project",
     "scripts": {
-        "mutation": "stryker run"
+        "mutation": "stryker run",
+        "test": "mocha-webpack"
     },
     "dependencies": {
         "jquery": "^3.3.1"
@@ -9,6 +10,7 @@
     "devDependencies": {
         "assert": "^1.4.1",
         "mocha": "^5.2.0",
+        "mocha-webpack": "^2.0.0-beta.0",
         "stryker": "^0.24.1",
         "stryker-api": "^0.17.2",
         "stryker-javascript-mutator": "^0.7.2",
