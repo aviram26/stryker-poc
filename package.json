@@ -1,0 +1,20 @@
+{
+    "name": "sample-project",
+    "scripts": {
+        "mutation": "stryker run"
+    },
+    "dependencies": {
+        "jquery": "^3.3.1"
+    },
+    "devDependencies": {
+        "mocha": "^5.2.0",
+        "stryker": "^0.24.1",
+        "stryker-api": "^0.17.2",
+        "stryker-javascript-mutator": "^0.7.2",
+        "stryker-mocha-framework": "^0.10.2",
+        "stryker-mocha-runner": "^0.12.2",
+        "stryker-webpack-transpiler": "^0.5.1",
+        "webpack": "^4.12.2",
+        "webpack-cli": "^2.1.4"
+    }
+}
