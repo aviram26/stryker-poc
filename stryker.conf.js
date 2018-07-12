@@ -16,8 +16,10 @@ module.exports = function (config) {
         reporter: ['clear-text', 'progress'],
         coverageAnalysis: 'off',
         webpack: {
-            configFile: 'webpack.config.js'
+            configFile: 'webpack.test.config.js'
         },
-        logLevel: 'trace',
+        mochaOptions: {
+            files: ['dist/test.bundle.js']
+        }
     });
 };
