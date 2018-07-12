@@ -13,8 +13,9 @@ module.exports = function (config) {
         ],
 
         transpilers: ['webpack'],
-        reporter: ['clear-text', 'progress'],
+        reporter: ['progress', 'clear-text', 'dots', 'html', 'event-recorder'],
         coverageAnalysis: 'off',
+        logLevel: 'trace',
         webpack: {
             configFile: 'webpack.test.config.js'
         },
