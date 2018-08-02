@@ -1,3 +1,4 @@
 dist
+reports
 node_modules
 .stryker-tmp
